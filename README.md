@@ -2,7 +2,7 @@
 
 ![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/portada.png)
 
-![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/jdbc-sql.png)
+![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/jdbc-sql.jpg)
 
 ![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/ds.png)
 
