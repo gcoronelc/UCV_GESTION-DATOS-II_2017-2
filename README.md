@@ -21,3 +21,7 @@
 
 - Docente: Eric Gustavo Coronel Castillo
 - Blog: www.desarrollasoftware.com
+
+# RECURSOS
+
+- http://gcoronelc.blogspot.pe/p/sql-server.html
