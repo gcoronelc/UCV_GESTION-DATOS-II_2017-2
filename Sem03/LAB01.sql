@@ -10,13 +10,14 @@ FROM EDUTEC..ALUMNO;
 /*
 IDALUMNO NOMALUMNO        APEALUMNO           EMAILALUMNO           
 -------- ---------------- ------------------- -----------------------
-A0001    Christian        Donayre Mena        cdonayre@peru.com     
+A0001    Christian        Donayre Mena        cdonayre|@peru.com     
 A0002    Freddy           Ortiz Rodriguez     fortiz@hotmail.com    
 A0003    Ruth Ketty       Silva Mejia         ksilva@gmail.com      
 A0004    Liliana          Melendez Noriega    lmelendez@uni.edu.pe  
 */
 
--- Sección: Campos calculados
+-- Sección: Campos calculados
+
 
 -- PREGUNTA 06
 -- Desarrollar una sentencia SELECT que permita obtener el importe 
@@ -71,7 +72,11 @@ idcursoprog idciclo idcurso nomcurso                                           v
 -- PREGUNTA 11
 
 -- Desarrollar una sentencia SELECT para consultar 
--- los empleados del departamento de contabilidad. -- Base de datos RH.select * from rh.dbo.departamento;
+-- los empleados del departamento de contabilidad. 
+-- Base de datos RH.
+
+select * from rh.dbo.departamento;
+
 -- Contabilidad: 101
 
 select idempleado, apellido, nombre, iddepartamento, sueldo, comision
