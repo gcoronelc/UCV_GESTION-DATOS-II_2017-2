@@ -1,14 +1,11 @@
-![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/curso.png)
-
 ![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/portada.png)
 
-![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/jdbc-sql.jpg)
-
-![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/ds.png)
-
-![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/java-cs.png)
-
 #  GESTIÓN DE DATOS E INFORMACIÓN II
+
+
+![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/curso.png)
+
+# DATOS DEL CURSO
 
 - Lugar: UNIVERSIDAD CESAR VALLEJO
 - Horario: MIERCOLES DE 07:30 a 12:00 Horas
@@ -22,6 +19,7 @@
 - Docente: Eric Gustavo Coronel Castillo
 - Blog: www.desarrollasoftware.com
 
+
 # RECURSOS
 
 - Recursos de SQL Server: http://gcoronelc.blogspot.pe/p/sql-server.html
@@ -33,4 +31,16 @@
 - Pruebas de Software: https://youtu.be/pII2WpxJQg4
 - Pruebas de Cobertura: https://youtu.be/F0qx_WXz5Z8
 - Pruebas Unitarias: https://youtu.be/6EqQWVQNwlw
+
+
+# INFORMACION COMPLEMENTARIA
+
+![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/jdbc-sql.jpg)
+
+![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/ds.png)
+
+![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/java-cs.png)
+
+
+
 
