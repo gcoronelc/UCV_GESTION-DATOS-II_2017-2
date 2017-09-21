@@ -18,6 +18,7 @@
 
 - Docente: Eric Gustavo Coronel Castillo
 - Blog: www.desarrollasoftware.com
+- Cooreo: egcc.ucv@gmail.com
 
 
 # RECURSOS
