@@ -5,7 +5,7 @@
 
 ![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/curso.png)
 
-# DATOS DEL CURSO
+## DATOS DEL CURSO
 
 - Lugar: UNIVERSIDAD CESAR VALLEJO
 - Horario: MIERCOLES DE 07:30 a 12:00 Horas
@@ -14,14 +14,14 @@
 - Laboratorio: 201-D (10:20 a 12:00 Horas)
 
 
-# DOCENTE
+## DOCENTE
 
 - Docente: Eric Gustavo Coronel Castillo
 - Blog: www.desarrollasoftware.com
 - Cooreo: egcc.ucv@gmail.com
 
 
-# RECURSOS
+## RECURSOS
 
 - Recursos de SQL Server: http://gcoronelc.blogspot.pe/p/sql-server.html
 - Programación con Java: http://gcoronelc.blogspot.pe/p/java.html
@@ -34,7 +34,7 @@
 - Pruebas Unitarias: https://youtu.be/6EqQWVQNwlw
 
 
-# INFORMACION COMPLEMENTARIA
+## INFORMACION COMPLEMENTARIA
 
 ![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/jdbc-sql.jpg)
 
