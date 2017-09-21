@@ -24,5 +24,13 @@
 
 # RECURSOS
 
-- http://gcoronelc.blogspot.pe/p/sql-server.html
-- https://www.udemy.com/
+- Recursos de SQL Server: http://gcoronelc.blogspot.pe/p/sql-server.html
+- Programación con Java: http://gcoronelc.blogspot.pe/p/java.html
+- Programación con Spring Framework: http://gcoronelc.blogspot.pe/p/spring-framework.html
+- Portal de cursos: https://www.udemy.com/
+- Portal de cursos: https://devcode.la/
+- Analisis y Diseño Orientado a Objetos: https://youtu.be/xyuyCoYKvy0
+- Pruebas de Software: https://youtu.be/pII2WpxJQg4
+- Pruebas de Cobertura: https://youtu.be/F0qx_WXz5Z8
+- Pruebas Unitarias: https://youtu.be/6EqQWVQNwlw
+
