@@ -32,7 +32,7 @@
 - Pruebas de Software: https://youtu.be/pII2WpxJQg4
 - Pruebas de Cobertura: https://youtu.be/F0qx_WXz5Z8
 - Pruebas Unitarias: https://youtu.be/6EqQWVQNwlw
-
+- Libros: https://github.com/dieforfree/edsebooks
 
 ## INFORMACION COMPLEMENTARIA
 
