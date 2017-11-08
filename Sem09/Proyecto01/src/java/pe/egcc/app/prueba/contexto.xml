@@ -23,7 +23,7 @@
   <bean id="dataSource"
         class="org.springframework.jdbc.datasource.DriverManagerDataSource"
         p:driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-        p:url="jdbc:sqlserver://10.82.24.10:1433;databaseName=edutec"
+        p:url="jdbc:sqlserver://localhost:1433;databaseName=edutec"
         p:username="eureka"
         p:password="admin" />
   
