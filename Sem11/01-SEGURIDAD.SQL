@@ -106,4 +106,6 @@ INSERT INTO USUARIO (IDEMPLEADO,IDROL,USUARIO,CLAVE,ESTADO)
 VALUES(2,2,'panchito',HashBytes('SHA1','panchito'),1);
 
 
+select * from usuario;
+
 
