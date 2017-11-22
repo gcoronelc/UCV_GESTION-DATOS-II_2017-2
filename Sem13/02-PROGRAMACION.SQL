@@ -120,8 +120,25 @@ values(2018,2000.0,700.0,700.0,0);
 -- Tabla SECCION
 
 
+SET IDENTITY_INSERT dbo.SECCION ON;  
+GO
 
+INSERT INTO SECCION(seccion,periodo,grado,vacantes,matriculados,idempleado) VALUES
+(1,2018,101,20,0,1),
+(2,2018,102,20,0,1),
+(3,2018,103,20,0,1),
+(4,2018,104,20,0,1),
+(5,2018,105,20,0,1),
+(6,2018,106,20,0,1),
+(7,2018,201,20,0,1),
+(8,2018,202,20,0,1),
+(9,2018,203,20,0,1),
+(10,2018,204,20,0,1),
+(11,2018,205,20,0,1);
+GO
 
+SET IDENTITY_INSERT dbo.SECCION OFF;  
+GO
 
 
 

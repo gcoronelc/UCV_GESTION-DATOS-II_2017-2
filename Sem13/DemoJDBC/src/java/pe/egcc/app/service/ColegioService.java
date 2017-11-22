@@ -1,7 +1,5 @@
 package pe.egcc.app.service;
 
-import java.util.List;
-import java.util.Map;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -25,11 +23,11 @@ public class ColegioService extends AbstractDBSupport {
     sql = "select ingreso from periodo where periodo = ?";
     Double importe = jdbcTemplate.queryForObject(sql, new Object[]{periodo}, Double.class);
 
-    String fecha = periodo + "0201";
+    String fecha = periodo + "0228";
 
     sql = "insert into obligacion(importe,fecven,estudiante, "
             + "matricula,tobligacion,audempleado,audfecha) "
-            + "values(?,EOMONTH(?),?,null,1,?,getdate())";
+            + "values(?,?,?,null,1,?,getdate())";
     
     Object[] parm = {importe, fecha, estudiante, empleado};
 
@@ -79,13 +77,35 @@ public class ColegioService extends AbstractDBSupport {
       cont = jdbcTemplate.update(sql, seccion);
       
       
+      sql = "insert into matricula(seccion,estudiante,fecha,confirmada,activa,"
+              + "obs,audempleado,audfecha) "
+              + "values( ?, ?, GETDATE(), 0, 1, 'NO HAY', ?, GETDATE() )";
+      jdbcTemplate.update(sql, seccion, estudiante, empleado);
       
       
+      sql = "select IDENT_CURRENT('matricula') id";
+      Integer matricula = jdbcTemplate.queryForObject(sql, Integer.class);
       
+      String fechaVen = "20180228";
+      
+      sql = "select MATRICULA from periodo " +
+            "where PERIODO = (select PERIODO from SECCION where SECCION = ?)";
+      Double importe = jdbcTemplate.queryForObject(sql, new Object[]{seccion}, Double.class);
+      
+      
+      sql = "insert into obligacion(importe,fecven,estudiante,matricula,tobligacion,"
+              + "audempleado,audfecha) values(?,?,?,?,2,?,getdate())";
+      jdbcTemplate.update(sql, importe, fechaVen, estudiante, matricula, empleado);
+      
+      sql = "select IDENT_CURRENT('obligacion') id";
+      Integer obligacion = jdbcTemplate.queryForObject(sql, Integer.class);
+      
+      bean.setObligacion(obligacion);
+      bean.setImporte(importe);
+            
     } catch(EmptyResultDataAccessException e){
       throw new RuntimeException("Error, datos incorrectos.");
     }
-    
     
     return bean;
   }
