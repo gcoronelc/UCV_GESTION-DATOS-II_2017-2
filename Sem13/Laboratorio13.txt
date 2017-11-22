@@ -1,0 +1,18 @@
+MATRICULA DE UN ESTUDIANTE
+==============================
+
+1- Registra en la tabla MATRICULA.
+2- Se actualiza la tabla SECCION.
+3- Se genera la obligacion en la tabla OBLIGACION.
+
+RESUMEN
+==================
+MATRICULA  -> insert
+SECCION    -> update
+OBLIGACION -> insert
+
+
+
+
+
+
