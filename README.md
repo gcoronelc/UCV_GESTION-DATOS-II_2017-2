@@ -4,6 +4,8 @@
 
 
 ![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/img/curso.png)
+![GESTIÓN DE DATOS E INFORMACIÓN II](https://raw.githubusercontent.com/gcoronelc/UCV_GESTION-DATOS-II_2017-2/master/fotos/portada.jpg)
+
 
 ## DATOS DEL CURSO
 
