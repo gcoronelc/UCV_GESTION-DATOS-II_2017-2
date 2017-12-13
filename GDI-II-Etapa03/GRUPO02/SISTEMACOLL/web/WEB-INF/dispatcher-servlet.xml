@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- was: <?xml version="1.0" encoding="UTF-8"?> -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+    <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
+
+    <!--
+    Most controllers will use the ControllerClassNameHandlerMapping above, but
+    for the index controller we are using ParameterizableViewController, so we must
+    define an explicit mapping for it.
+    -->
+    <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <prop key="index.htm">indexController</prop>
+                <!--GRADO-->
+                <prop key="grado.htm">gradoController</prop>
+                <prop key="addgrado.htm">addgradoController</prop>
+                <prop key="editgrado.htm">editgradoController</prop>
+                <prop key="deletegrado.htm">deletegradoController</prop>
+                <!--Nivel-->
+                <prop key="nivel.htm">nivelController</prop>
+                <prop key="addnivel.htm">addnivelController</prop>
+                <prop key="editnivel.htm">editnivelController</prop>
+                <prop key="deletenivel.htm">deletenivelController</prop>
+                <!--Estudiante-->
+                <prop key="pago.htm">pagoController</prop>
+                <!--Periodo-->
+                <prop key="periodo.htm">periodoController</prop>
+                <prop key="addperiodo.htm">addperiodoController</prop>
+                <prop key="deleteperiodo.htm">deleteperiodoController</prop>
+                <prop key="deletematricula.htm">deletematriculaController</prop>
+                <prop key="matricula.htm">matriculaController</prop>
+                <prop key="obligacion.htm">obligacionController</prop>
+                <prop key="seccion.htm">seccionController</prop>
+                <!--Rol-->
+                <prop key="rol.htm">rolController</prop>
+                <prop key="addrol.htm">addrolController</prop>
+                <prop key="deleterol.htm">deleterolController</prop>
+                <prop key="editrol.htm">editrolController</prop>
+                <!--TOBLIGACION-->
+                <prop key="tobligacion.htm">tobligacionController</prop>
+                <prop key="addtobligacion.htm">addtobligacionController</prop>
+                <prop key="deletetobligacion.htm">deletetobligacionController</prop>
+                <!--Empleado-->
+                <prop key="empleado.htm">empleadoController</prop>
+                <prop key="deleteempleado.htm">deleteempleadoController</prop>
+                <!--Estudiante-->
+                <prop key="estudiante.htm">estudianteController</prop>
+                <prop key="deleteestudiante.htm">deleteestudianteController</prop>
+                
+                
+                
+                
+                
+                
+                
+            </props>
+        </property>
+    </bean>
+
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          p:prefix="/WEB-INF/jsp/"
+          p:suffix=".jsp" />
+
+    <!--
+    The index controller.
+    -->
+    <!--Estudiante-->
+    <bean name="estudianteController" class="com.manosenelcodigo.controller.EstudianteController" />
+    <bean name="deleteestudianteController" class="com.manosenelcodigo.controller.DeleteEstudianteController" />
+    <!--Empleado-->
+    <bean name="empleadoController" class="com.manosenelcodigo.controller.EmpleadoController" />
+    <bean name="deleteempleadoController" class="com.manosenelcodigo.controller.DeleteEmpleadoController" />
+    <!--Grado-->
+    <bean name="pagoController" class="com.manosenelcodigo.controller.PagoController" />
+    <!--Rol-->
+    <bean name="rolController" class="com.manosenelcodigo.controller.RolController" />
+    <bean name="deleterolController" class="com.manosenelcodigo.controller.DeleteRolController" />
+    <bean name="editrolController" class="com.manosenelcodigo.controller.EditRolController" />
+    
+    <bean name="addrolController" class="com.manosenelcodigo.controller.AddRolController" />
+    <!--TONLIGACION-->
+    <bean name="addtobligacionController" class="com.manosenelcodigo.controller.AddTobligacionController" />
+    <bean name="tobligacionController" class="com.manosenelcodigo.controller.TobligacionController" />
+    <bean name="deletetobligacionController" class="com.manosenelcodigo.controller.DeleteTobligacionController" />
+    
+    
+    <bean name="seccionController" class="com.manosenelcodigo.controller.SeccionController" />
+    <bean name="obligacionController" class="com.manosenelcodigo.controller.ObligacionController" />
+    <bean name="matriculaController" class="com.manosenelcodigo.controller.MatriculaController" />
+    <bean name="addperiodoController" class="com.manosenelcodigo.controller.AddPeriodoController" />
+    <bean name="deleteperiodoController" class="com.manosenelcodigo.controller.DeletePeriodoController" />
+    <bean name="deletematriculaController" class="com.manosenelcodigo.controller.DeleteMatriculaController" />
+    <bean name="periodoController" class="com.manosenelcodigo.controller.PeriodoController" />
+    <bean name="gradoController" class="com.manosenelcodigo.controller.GradoController" />
+    <bean name="addgradoController" class="com.manosenelcodigo.controller.AddGradoController" />
+    <bean name="editgradoController" class="com.manosenelcodigo.controller.EditGradoController" />
+    <bean name="deletegradoController" class="com.manosenelcodigo.controller.DeleteGradoController" />
+    <!--Nivel-->
+    <bean name="addnivelController" class="com.manosenelcodigo.controller.AddNivelController" />
+    <bean name="editnivelController" class="com.manosenelcodigo.controller.EditNivelController" />
+    <bean name="deletenivelController" class="com.manosenelcodigo.controller.DeleteNivelController" />
+    <bean name="nivelController" class="com.manosenelcodigo.controller.NivelController" />
+    <bean name="indexController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="index" />
+
+</beans>
